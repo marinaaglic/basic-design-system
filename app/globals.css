@@ -1,42 +1,138 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* color variables */
+  --black: #000000;
+  --gray-darker: #090909;
+  --gray-dark: #4F4F4F;
+  --gray-medium: #E6E6E6;
+  --gray-light: #F7F7F7;
+  --white: #FFFFFF;
+  --brand-green: #23CFA7;
+  --brand-blue: #032541;
+  --green-darker: #00110C;
+  --green-dark: #003B2A;
+  --green-medium: #00A877;
+  --green-light: #A6E1D0;
+  --green-lighter: #E6F7F2;
+  --red-darker: #150603;
+  --red-dark: #48160C;
+  --red-medium: #CF4023;
+  --red-light: #EEBCB2;
+  --red-lighter: #FBECE9;
+  --orange-darker: #150D03;
+  --orange-dark: #482E0C;
+  --orange-medium: #F1A43F;
+  --orange-light: #FADFBC;
+  --orange-lighter: #FEF6EC;
+  --blue-darker: #030E15;
+  --blue-dark: #0C3048;
+  --blue-medium: #238ACF;
+  --blue-light: #B2D6EE;
+  --blue-lighter: #E9F4FB;
+
+  /* typography variables */
+  --typography-font-family-primary: "Montserrat";
+  --typography-font-weight-bold: "Bold";
+  --typography-font-weight-regular: "Regular";
+  --typography-font-size-62: 62; 
+  --typography-font-size-32: 32;
+  --typography-font-size-24: 24;
+  --typography-font-size-20: 20;
+  --typography-font-size-16: 16;
+  --typography-font-size-14: 14;
+  --typography-font-size-12: 12;
+  --letter-spacing-spacing-0: 0;
+  --letter-spacing-spacing-1-86: -1.8600000143051147;
+  --letter-spacing-spacing-0-48: -0.47999998927116394;
+  --letter-spacing-spacing-0-42: -0.41999998688697815;
+  --letter-spacing-spacing-0-35: -0.3499999940395355;
+  --letter-spacing-spacing-0-32: -0.3199999928474426;
+  --line-height-small: 1;
+  --line-height-regular: 1.4;
+  --line-height-medium: 1.6;
+  --line-height-tight: 1.2;
+
+  /* h1 */
+  --typography-h1-font-size: var(--typography-font-size-32);
+  --typography-h1-font-weight: var(--typography-font-weight-bold);
+  --typography-h1-line-height: var(--line-height-tight); 
+  --typography-h1-letter-spacing: var(--letter-spacing-spacing-0-48);
+  --typography-h1-font-family: var(--typography-font-family-primary);
+
+  /* h2 */
+  --typography-h2-font-size: var(--typography-font-size-24);
+  --typography-h2-font-weight: var(--typography-font-weight-bold);
+  --typography-h2-line-height: var(--line-height-tight); 
+  --typography-h2-letter-spacing: var(--letter-spacing-spacing-0);
+  --typography-h2-font-family: var(--typography-font-family-primary);
+
+  /* h3 */
+  --typography-h3-font-size: var(--typography-font-size-20);
+  --typography-h3-font-weight: var(--typography-font-weight-bold);
+  --typography-h3-line-height: var(--line-height-tight); 
+  --typography-h3-letter-spacing: var(--letter-spacing-spacing-0);
+  --typography-h3-font-family: var(--typography-font-family-primary);
+
+  /* default strong */
+  --typography-default-strong-font-size: var(--typography-font-size-16);
+  --typography-default-strong-font-weight: var(--typography-font-weight-bold);
+  --typography-default-strong-line-height: var(--line-height-tight);
+  --typography-default-strong-letter-spacing: var(--letter-spacing-spacing-0);
+  --typography-default-strong-font-family: var(--typography-font-family-primary);
+
+  /* default regular */
+  --typography-default-regular-font-size: var(--typography-font-size-16);
+  --typography-default-regular-font-weight: var(--typography-font-weight-regular);
+  --typography-default-regular-line-height: var(--line-height-medium);
+  --typography-default-regular-letter-spacing: var(--letter-spacing-spacing-0);
+  --typography-default-regular-font-family: var(--typography-font-family-primary);
+
+  /* medium strong */
+  --typography-medium-strong-font-size: var(--typography-font-size-14);
+  --typography-medium-strong-font-weight: var(--typography-font-weight-bold);
+  --typography-medium-strong-line-height: var(--line-height-tight);
+  --typography-medium-strong-letter-spacing: var(--letter-spacing-spacing-0);
+  --typography-medium-strong-font-family: var(--typography-font-family-primary);
+
+  /* small strong */
+  --typography-small-strong-font-size: var(--typography-font-size-12);
+  --typography-small-strong-font-weight: var(--typography-font-weight-bold);
+  --typography-small-strong-line-height: var(--line-height-tight);
+  --typography-small-strong-letter-spacing: var(--letter-spacing-spacing-0);
+  --typography-small-strong-font-family: var(--typography-font-family-primary);
+
+  /* label default */
+  --typography-label-default-font-size: var(--typography-font-size-16);
+  --typography-label-default-font-weight: var(--typography-font-weight-regular);
+  --typography-label-default-line-height: var(--line-height-regular);
+  --typography-label-default-letter-spacing: var(--letter-spacing-spacing-0-32);
+  --typography-label-default-font-family: var(--typography-font-family-primary);
+
+  /* label small */
+  --typography-label-small-font-size: var(--typography-font-size-14);
+  --typography-label-small-font-weight: var(--typography-font-weight-regular);
+  --typography-label-small-line-height: var(--line-height-regular);
+  --typography-label-small-letter-spacing: var(--letter-spacing-spacing-0-35);
+  --typography-label-small-font-family: var(--typography-font-family-primary);
+
+  /* tab active */
+  --typography-tab-active-font-size: var(--typography-font-size-16);
+  --typography-tab-active-font-weight: var(--typography-font-weight-bold);
+  --typography-tab-active-line-height: var(--line-height-regular);
+  --typography-tab-active-letter-spacing: var(--letter-spacing-spacing-0-48);
+  --typography-tab-active-font-family: var(--typography-font-family-primary);
+
+  /* tab inactive */
+  --typography-tab-inactive-font-size: var(--typography-font-size-16);
+  --typography-tab-inactive-font-weight: var(--typography-font-weight-regular);
+  --typography-tab-inactive-line-height: var(--line-height-regular);
+  --typography-tab-inactive-letter-spacing: var(--letter-spacing-spacing-0-48);
+  --typography-tab-inactive-font-family: var(--typography-font-family-primary);
+
+  /* tab */
+  --typography-tab-font-size: var(--typography-font-size-14);
+  --typography-tab-font-weight: var(--typography-font-weight-regular);
+  --typography-tab-line-height: var(--line-height-small);
+  --typography-tab-letter-spacing: var(--letter-spacing-spacing-0-42);
+  --typography-tab-font-family: var(--typography-font-family-primary);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
