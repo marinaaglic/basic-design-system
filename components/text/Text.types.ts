@@ -11,3 +11,9 @@ export type TextType =
   | 'tab-active'
   | 'tab-inactive'
   | 'tab';
+
+export interface ITextProps extends React.HTMLAttributes<HTMLElement> {
+  type: TextType;
+  children: React.ReactNode;
+  className?: string;
+}
