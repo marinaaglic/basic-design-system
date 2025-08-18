@@ -1,4 +1,4 @@
-export type TextType =
+export type TextSize =
   | 'h1'
   | 'h2'
   | 'h3'
@@ -12,8 +12,11 @@ export type TextType =
   | 'tab-inactive'
   | 'tab';
 
+export type TextComponent = 'h1' | 'h2' | 'h3' | 'p' | 'span' | 'div';
+
 export interface ITextProps extends React.HTMLAttributes<HTMLElement> {
-  type: TextType;
+  size: TextSize;
   children: React.ReactNode;
   className?: string;
+  component?: TextComponent;
 }

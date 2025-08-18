@@ -33,21 +33,21 @@
 
   /* typography variables */
   --typography-font-family-primary: 'Montserrat';
-  --typography-font-weight-bold: 'Bold';
-  --typography-font-weight-regular: 'Regular';
-  --typography-font-size-62: 62px;
-  --typography-font-size-32: 32px;
-  --typography-font-size-24: 24px;
-  --typography-font-size-20: 20px;
-  --typography-font-size-16: 16px;
-  --typography-font-size-14: 14px;
-  --typography-font-size-12: 12px;
+  --typography-font-weight-bold: 700;
+  --typography-font-weight-regular: 400;
+  --typography-font-size-62: 3.875rem;
+  --typography-font-size-32: 2rem;
+  --typography-font-size-24: 1.5rem;
+  --typography-font-size-20: 1.25rem;
+  --typography-font-size-16: 1rem;
+  --typography-font-size-14: 0.875rem;
+  --typography-font-size-12: 0.75rem;
   --letter-spacing-spacing-0: 0px;
-  --letter-spacing-spacing-1-86: -1.8600000143051147px;
-  --letter-spacing-spacing-0-48: -0.47999998927116394px;
-  --letter-spacing-spacing-0-42: -0.41999998688697815px;
-  --letter-spacing-spacing-0-35: -0.3499999940395355px;
-  --letter-spacing-spacing-0-32: -0.3199999928474426px;
+  --letter-spacing-spacing-1-86: -1.86px;
+  --letter-spacing-spacing-0-48: -0.48px;
+  --letter-spacing-spacing-0-42: -0.42px;
+  --letter-spacing-spacing-0-35: -0.35px;
+  --letter-spacing-spacing-0-32: -0.32px;
   --line-height-small: 1;
   --line-height-regular: 1.4;
   --line-height-medium: 1.6;
