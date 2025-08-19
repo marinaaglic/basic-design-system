@@ -1,9 +1,10 @@
-import React from 'react'
+import { IGridProps } from "./Grid.types";
+import styles from "./Grid.module.scss";
+import clsx from "clsx";
 
-type Props = {}
-
-export default function Grid({}: Props) {
+export default function Grid({size, children, className, component="section", ...rest}: IGridProps) {
+    const Tag = component;
   return (
-    <div>Grid</div>
+    <Tag className={clsx(styles[size], className)} {...rest}> {children}</Tag>
   )
 }

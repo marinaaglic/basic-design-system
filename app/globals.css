@@ -142,4 +142,25 @@
   --typography-tab-line-height: var(--line-height-small);
   --typography-tab-letter-spacing: var(--letter-spacing-spacing-0-42);
   --typography-tab-font-family: var(--typography-font-family-primary);
+
+  /* layout grid */
+  --spacing-0: 0;
+  --spacing-5: 5;
+  --spacing-8: 8;
+  --spacing-10: 10;
+  --spacing-12: 12;
+  --spacing-14: 14;
+  --spacing-20: 20;
+  --spacing-25: 25;
+  --spacing-30: 30;
+  --spacing-40: 40;
+  --spacing-50: 50;
+  --spacing-60: 60;
+  --grid-center-column-count: 12;
+  --grid-center-margin-width: 73;
+  --grid-center-gutter-width: 30;
+  --grid-center-max-witdh: 1400px;
+  --grid-stretch-column-count: 12;
+  --grid-stretch-margin-width: 40;
+  --grid-stretch-gutter-width: 30;
 }
