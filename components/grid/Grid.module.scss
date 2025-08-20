@@ -1,0 +1,14 @@
+$grid-stretch-column-width: calc
+  (
+    (
+        100vw - (2 *#{grid-stretch-margin-width}) -
+          (11 *#{grid-stretch-gutter-width})
+      ) /
+      #{grid-stretch-column-count}
+  );
+
+$grid-center-column-width: calc(
+  (
+      min(100vw, #{grid-center-max-witdh}) - (11 *#{grid-center-gutter-width})
+    ) /#{grid-center-column-count}
+);
