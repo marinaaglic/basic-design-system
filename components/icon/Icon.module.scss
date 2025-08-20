@@ -1,0 +1,8 @@
+@use 'styles/mixins' as *;
+
+.sm {@include generate-icon-class('sm')};
+.md {@include generate-icon-class('md')};
+.lg {@include generate-icon-class('lg')};
+.xlg {@include generate-icon-class('xlg')};
+.xxlg {@include generate-icon-class('xxlg')};
+.xxxlg {@include generate-icon-class('xxxlg')};
