@@ -1,10 +1,15 @@
-import { IIconProps } from "./Icon.types"
-import styles from "./Icon.module.scss";
+import { IIconProps } from './Icon.types';
+import styles from './Icon.module.scss';
 
-export default function Icon({ size, icon: IconComponent, className = "", ...rest }: IIconProps) {
+export default function Icon({
+  size,
+  children,
+  className = '',
+  ...rest
+}: IIconProps) {
   return (
-    <span className={`${styles[size]} ${className}`} {...rest}>
-        <IconComponent />
-    </span>
-  )
+    <svg className={`${styles[size]} ${className}`} {...rest}>
+      {children}
+    </svg>
+  );
 }
