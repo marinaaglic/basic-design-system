@@ -158,9 +158,11 @@
   --button-gap: var(--spacing-10, 10px);
   --button-border-radius: 4px;
   --button-cursor: pointer;
+  --spacing-12: 12px;
+  --spacing-10: 10px;
 
-  --button-padding-default: var(--spacing-12, 12px) var(--spacing-10, 10px);
-  --button-padding-transparent: var(--spacing-10, 10px);
+  --button-padding-default: var(--spacing-12) var(--spacing-10);
+  --button-padding-transparent: var(--spacing-10);
 
   /* primary default button */
   --button-primary-default-bg: var(--brand-blue);

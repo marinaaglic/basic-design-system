@@ -28,7 +28,6 @@
 
   &:focus {
     outline: 2px solid var(--button-#{$color}-#{$name}-focus-border);
-    outline-offset: 2px;
   }
 
   &:disabled {
