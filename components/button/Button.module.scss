@@ -1,0 +1,21 @@
+@use 'styles/mixins' as *;
+
+.primary-default {
+  @include generate-button-class('default', 'primary');
+  padding: var(--button-padding-default);
+}
+
+.primary-transparent {
+  @include generate-button-class('transparent', 'primary');
+  --button-padding-transparent: var(--spacing-10, 10px);
+}
+
+.secondary-default {
+  @include generate-button-class('default', 'secondary');
+  padding: var(--button-padding-default);
+}
+
+.secondary-transparent {
+  @include generate-button-class('transparent', 'secondary');
+  --button-padding-transparent: var(--spacing-10, 10px);
+}

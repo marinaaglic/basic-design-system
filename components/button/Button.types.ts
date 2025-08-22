@@ -1,15 +1,15 @@
 export type ButtonColor = 'primary' | 'secondary';
-
 export type ButtonType = 'default' | 'transparent';
-
-export type ButtonState = 'default' | 'hover' | 'focus' | 'disabled';
-
+export type ButtonSize = 'medium' | 'small';
+export type ButtonIconPosition = 'left' | 'right' | 'none';
 export type ButtonComponent = 'a' | 'button';
 
-export interface IButtonProps {
+export interface IButtonProps extends React.HTMLAttributes<HTMLElement> {
   color: ButtonColor;
   type: ButtonType;
-  state: ButtonState;
+  size: ButtonSize;
+  icon?: ButtonIconPosition;
   className?: string;
+  children: React.ReactNode;
   component?: ButtonComponent;
 }

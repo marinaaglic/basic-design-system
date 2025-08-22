@@ -1,5 +1,6 @@
 import styles from './page.module.css';
 import Text from '@/components/text/Text';
+import Button from '@/components/button/Button';
 
 export default function Home() {
   return (
@@ -7,6 +8,9 @@ export default function Home() {
       <Text size="h1" component="h3">
         Home page
       </Text>
+      <Button color="primary" type="default" size="medium">
+        Primary Default
+      </Button>
     </div>
   );
 }

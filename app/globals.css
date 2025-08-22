@@ -150,4 +150,43 @@
   --icon-size-xlg: 24px;
   --icon-size-xxlg: 32px;
   --icon-size-xxxlg: 40px;
+
+  /* button */
+  --button-display: inline-flex;
+  --button-justify: center;
+  --button-align: center;
+  --button-gap: var(--spacing-10, 10px);
+  --button-border-radius: 4px;
+  --button-cursor: pointer;
+
+  --button-padding-default: var(--spacing-12, 12px) var(--spacing-10, 10px);
+  --button-padding-transparent: var(--spacing-10, 10px);
+
+  /* primary default button */
+  --button-primary-default-bg: var(--brand-blue);
+  --button-primary-default-color: var(--white);
+  --button-primary-default-hover-bg: var(--blue-dark);
+  --button-primary-default-focus-border: var(--blue-medium);
+  --button-primary-default-disabled-bg: var(--gray-medium);
+
+  /* primary transparent button */
+  --button-primary-transparent-bg: transparent;
+  --button-primary-transparent-color: var(--brand-blue);
+  --button-primary-transparent-hover-bg: transparent;
+  --button-primary-transparent-focus-border: var(--blue-medium);
+  --button-primary-transparent-disabled-color: var(--gray-dark);
+
+  /* secondary default button */
+  --button-secondary-default-bg: var(--brand-green);
+  --button-secondary-default-color: var(--white);
+  --button-secondary-default-hover-bg: var(--green-medium);
+  --button-secondary-default-focus-border: var(--blue-medium);
+  --button-secondary-default-disabled-bg: var(--gray-medium);
+
+  /* secondary transparent button */
+  --button-secondary-transparent-bg: transparent;
+  --button-secondary-transparent-color: var(--brand-green);
+  --button-secondary-transparent-hover-bg: transparent;
+  --button-secondary-transparent-focus-border: var(--blue-medium);
+  --button-secondary-transparent-disabled-color: var(--gray-dark);
 }
