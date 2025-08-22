@@ -10,6 +10,6 @@ export interface IButtonProps extends React.HTMLAttributes<HTMLElement> {
   size: ButtonSize;
   icon?: ButtonIconPosition;
   className?: string;
-  children: React.ReactNode;
   component?: ButtonComponent;
+  disabled?: boolean;
 }

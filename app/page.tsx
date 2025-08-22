@@ -17,7 +17,7 @@ export default function Home() {
       <Button color="secondary" type="transparent" size="medium">
         Primary Default
       </Button>
-      <Button color="secondary" type="transparent" size="medium">
+      <Button color="secondary" type="default" size="medium" disabled={true}>
         Primary Default
       </Button>
     </div>

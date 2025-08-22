@@ -168,6 +168,7 @@
   --button-primary-default-hover-bg: var(--blue-dark);
   --button-primary-default-focus-border: var(--blue-medium);
   --button-primary-default-disabled-bg: var(--gray-medium);
+  --button-primary-default-disabled-color: var(--gray-dark);
 
   /* primary transparent button */
   --button-primary-transparent-bg: transparent;
@@ -182,6 +183,7 @@
   --button-secondary-default-hover-bg: var(--green-medium);
   --button-secondary-default-focus-border: var(--blue-medium);
   --button-secondary-default-disabled-bg: var(--gray-medium);
+  --button-primary-default-disabled-color: var(--gray-dark);
 
   /* secondary transparent button */
   --button-secondary-transparent-bg: transparent;
