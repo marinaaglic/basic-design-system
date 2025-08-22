@@ -7,7 +7,7 @@
 
 .primary-transparent {
   @include generate-button-class('transparent', 'primary');
-  --button-padding-transparent: var(--spacing-10, 10px);
+  --button-padding-transparent: var(--spacing-10);
 }
 
 .secondary-default {
@@ -17,7 +17,7 @@
 
 .secondary-transparent {
   @include generate-button-class('transparent', 'secondary');
-  --button-padding-transparent: var(--spacing-10, 10px);
+  --button-padding-transparent: var(--spacing-10);
 }
 
 .small {
