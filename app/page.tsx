@@ -8,7 +8,7 @@ export default function Home() {
       <Text size="h1" component="h3">
         Home page
       </Text>
-      <Button color="primary" type="default" size="medium">
+      <Button color="primary" type="default" size="small">
         Primary Default
       </Button>
     </div>

@@ -21,6 +21,7 @@
   justify-content: var(--button-justify);
   align-items: (--button-align);
   cursor: var(--button-cursor);
+  border: none;
 
   &:hover {
     background-color: var(--button-#{$color}-#{$name}-hover-bg);

@@ -19,3 +19,11 @@
   @include generate-button-class('transparent', 'secondary');
   --button-padding-transparent: var(--spacing-10, 10px);
 }
+
+.small {
+  font-size: var(--typography-font-size-14);
+}
+
+.medium {
+  font-size: var(--typography-font-size-16);
+}

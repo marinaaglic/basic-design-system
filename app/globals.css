@@ -144,12 +144,12 @@
   --typography-tab-font-family: var(--typography-font-family-primary);
 
   /* icon size */
-  --icon-size-sm: 12px;
-  --icon-size-md: 16px;
-  --icon-size-lg: 20px;
-  --icon-size-xlg: 24px;
-  --icon-size-xxlg: 32px;
-  --icon-size-xxxlg: 40px;
+  --icon-size-sm: 0.75rem;
+  --icon-size-md: 1rem;
+  --icon-size-lg: 1.25rem;
+  --icon-size-xlg: 1.5rem;
+  --icon-size-xxlg: 2rem;
+  --icon-size-xxxlg: 2.5rem;
 
   /* button */
   --button-display: inline-flex;
@@ -157,7 +157,6 @@
   --button-align: center;
   --button-gap: var(--spacing-10, 10px);
   --button-border-radius: 4px;
-  --button-cursor: pointer;
   --spacing-12: 12px;
   --spacing-10: 10px;
 
