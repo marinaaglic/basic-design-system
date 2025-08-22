@@ -154,7 +154,6 @@
   /* button */
   --button-display: inline-flex;
   --button-justify: center;
-  --button-align: center;
   --button-gap: var(--spacing-10, 10px);
   --button-border-radius: 4px;
   --spacing-12: 12px;

@@ -17,6 +17,9 @@ export default function Home() {
       <Button color="secondary" type="transparent" size="medium">
         Primary Default
       </Button>
+      <Button color="secondary" type="transparent" size="medium">
+        Primary Default
+      </Button>
     </div>
   );
 }
