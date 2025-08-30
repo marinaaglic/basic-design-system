@@ -30,6 +30,8 @@
   --blue-medium: #238acf;
   --blue-light: #b2d6ee;
   --blue-lighter: #e9f4fb;
+  --theme-surface-modal-light: #ffffffe5;
+  --theme-surface-modal-dark: #0000007f;
 
   /* typography variables */
   --typography-font-family-primary: 'Montserrat';
@@ -193,7 +195,7 @@
   --button-secondary-transparent-disabled-color: var(--gray-dark);
 }
 
-:root[data-theme='light'] {
+[data-theme='light'] {
   --headings: var(--theme-neutral-500);
   --body: var(--theme-neutral-400);
   --action: var(--theme-primary);
@@ -231,7 +233,7 @@
   --surface-action-1-hover: var(--theme-primary);
   --surface-action-2: var(--theme-secondary);
   --surface-action-2-hover: var(--theme-secondary);
-  --surface-modal: #ffffffe5;
+  --surface-modal: var(--theme-surface-modal-light);
   --border-primary: var(--theme-neutral-300);
   --border-secondary: var(--theme-neutral-500);
   --border-information: var(--theme-information-300);
@@ -244,7 +246,7 @@
   --border-focus: var(--theme-information-300);
 }
 
-:root[data-theme='dark'] {
+[data-theme='dark'] {
   --headings: var(--theme-neutral-100);
   --body: #c8c8c8;
   --action: var(--theme-neutral-100);
@@ -282,7 +284,7 @@
   --surface-action-1-hover: var(--theme-primary);
   --surface-action-2: var(--theme-secondary);
   --surface-action-2-hover: var(--theme-secondary);
-  --surface-modal: #0000007f;
+  --surface-modal: var(--theme-surface-modal-dark);
   --border-primary: var(--theme-neutral-400);
   --border-secondary: var(--theme-neutral-100);
   --border-information: var(--theme-information-300);
