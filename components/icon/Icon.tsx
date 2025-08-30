@@ -3,8 +3,9 @@ import styles from './Icon.module.scss';
 
 export default function Icon({
   size,
+  type,
   children,
-  className = '',
+  className,
   ...rest
 }: IIconProps) {
   return (
