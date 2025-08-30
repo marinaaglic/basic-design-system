@@ -1,14 +1,38 @@
-$grid-stretch-column-width: calc
+$grid-stretch-column-width: calc(
   (
-    (
-        100vw - (2 *#{grid-stretch-margin-width}) -
-          (11 *#{grid-stretch-gutter-width})
-      ) /
-      #{grid-stretch-column-count}
-  );
+      100vw - (calc(2 * var(--grid-stretch-margin-width))) -
+        (11 * var(--grid-stretch-gutter-width))
+    ) /
+    var(--grid-stretch-column-count)
+);
 
 $grid-center-column-width: calc(
   (
-      min(100vw, #{grid-center-max-witdh}) - (11 *#{grid-center-gutter-width})
-    ) /#{grid-center-column-count}
+      min(100vw, var(--grid-center-max-width)) -
+        (11 * var(--grid-center-gutter-width))
+    ) /
+    var(--grid-center-column-count)
 );
+
+.default {
+  display: grid;
+  grid-template-columns: repeat(
+    var(--grid-stretch-column-count),
+    $grid-stretch-column-width
+  );
+  column-gap: var(--grid-stretch-gutter-width);
+  margin-left: var(--grid-stretch-margin-width);
+  margin-right: var(--grid-stretch-margin-width);
+}
+
+.center {
+  display: grid;
+  grid-template-columns: repeat(
+    var(--grid-center-column-count),
+    $grid-center-column-width
+  );
+  column-gap: var(--grid-center-gutter-width);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--grid-center-max-width);
+}

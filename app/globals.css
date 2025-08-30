@@ -144,23 +144,23 @@
   --typography-tab-font-family: var(--typography-font-family-primary);
 
   /* layout grid */
-  --spacing-0: 0;
-  --spacing-5: 5;
-  --spacing-8: 8;
-  --spacing-10: 10;
-  --spacing-12: 12;
-  --spacing-14: 14;
-  --spacing-20: 20;
-  --spacing-25: 25;
-  --spacing-30: 30;
-  --spacing-40: 40;
-  --spacing-50: 50;
-  --spacing-60: 60;
+  --spacing-0: 0px;
+  --spacing-5: 5px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-14: 14px;
+  --spacing-20: 20px;
+  --spacing-25: 25px;
+  --spacing-30: 30px;
+  --spacing-40: 40px;
+  --spacing-50: 50px;
+  --spacing-60: 60px;
   --grid-center-column-count: 12;
-  --grid-center-margin-width: 73;
-  --grid-center-gutter-width: 30;
-  --grid-center-max-witdh: 1400px;
+  --grid-center-margin-width: 73px;
+  --grid-center-gutter-width: 30px;
+  --grid-center-max-width: 1400px;
   --grid-stretch-column-count: 12;
-  --grid-stretch-margin-width: 40;
-  --grid-stretch-gutter-width: 30;
+  --grid-stretch-margin-width: 40px;
+  --grid-stretch-gutter-width: 30px;
 }
