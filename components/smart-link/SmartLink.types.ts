@@ -1,7 +1,6 @@
-import { ReactNode } from 'react';
+import { ReactNode, AnchorHTMLAttributes } from 'react';
 
 export type SmartLinkType = {
   href: string;
   children: ReactNode;
-  className?: string;
-};
+} & AnchorHTMLAttributes<HTMLAnchorElement>;
