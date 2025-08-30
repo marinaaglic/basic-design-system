@@ -144,12 +144,12 @@
   --typography-tab-font-family: var(--typography-font-family-primary);
 
   /* icon size */
-  --icon-size-sm: 0.75px;
-  --icon-size-md: 1px;
-  --icon-size-lg: 1.25px;
-  --icon-size-xlg: 1.5px;
-  --icon-size-xxlg: 2px;
-  --icon-size-xxxlg: 2.5px;
+  --icon-size-sm: 16px;
+  --icon-size-md: 24px;
+  --icon-size-lg: 32px;
+  --icon-size-xlg: 40px;
+  --icon-size-xxlg: 48px;
+  --icon-size-xxxlg: 64px;
 
   /* button */
   --button-display: inline-flex;

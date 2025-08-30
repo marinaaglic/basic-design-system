@@ -21,6 +21,7 @@ export default function Home() {
       <Button color="secondary" type="default" size="medium" disabled={true}>
         Primary Default
       </Button>
+      <p>ICON</p>
       <Icon type="search" size="md" />
     </div>
   );
