@@ -1,6 +1,7 @@
 import styles from './page.module.css';
 import Text from '@/components/text/Text';
 import Button from '@/components/button/Button';
+import Icon from '@/components/icon/Icon';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Button color="secondary" type="default" size="medium" disabled={true}>
         Primary Default
       </Button>
+      <Icon type="search" size="md" />
     </div>
   );
 }
