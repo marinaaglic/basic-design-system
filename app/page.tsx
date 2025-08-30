@@ -1,10 +1,18 @@
-import styles from './page.module.css'
-import Text from '@/components/text/Text'
+import styles from './page.module.css';
+import Text from '@/components/text/Text';
+import Button from '@/components/button/Button';
+import Icon from '@/components/icon/Icon';
 
 export default function Home() {
   return (
     <div className={styles.page}>
-      <Text size="h1" component='h3'>Home page</Text>
+      <Text size="h1" component="h3">
+        Home page
+      </Text>
+      <Button variant="primary" type="default" size="small">
+        Primary Default
+      </Button>
+      <Icon type="search" size="md" />
     </div>
-  )
+  );
 }
