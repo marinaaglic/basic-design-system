@@ -1,6 +1,6 @@
 $grid-stretch-column-width: calc(
   (
-      100vw - (calc(2 * var(--grid-stretch-margin-width))) -
+      100vw - (2 * var(--grid-stretch-margin-width)) -
         (11 * var(--grid-stretch-gutter-width))
     ) /
     var(--grid-stretch-column-count)
