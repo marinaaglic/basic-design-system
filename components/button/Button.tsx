@@ -2,18 +2,16 @@ import { IButtonProps } from './Button.types';
 import styles from './Button.module.scss';
 
 export default function Button({
-  color,
+  variant,
   type,
   size,
   icon,
-  className,
   children,
-  component = 'button',
+  component = 'a',
   ...rest
 }: IButtonProps) {
   const Tag = component;
-  const buttonClass =
-    `${styles[`${color}-${type}`]} ${styles[size]} ${className}`.trim();
+  const buttonClass = `${styles[`${variant}-${type}`]} ${styles[size]}`;
   return (
     <Tag className={buttonClass} {...rest}>
       {children}
