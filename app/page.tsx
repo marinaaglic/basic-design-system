@@ -1,7 +1,7 @@
 import styles from './page.module.css';
 import Text from '@/components/text/Text';
 import Button from '@/components/button/Button';
-import ToggleButton from '@/components/toggle/ToggleButton';
+import ToggleButton from '@/components/toggle-button/ToggleButton';
 
 export default function Home() {
   return (

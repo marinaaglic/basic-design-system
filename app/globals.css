@@ -195,7 +195,7 @@
   --button-secondary-transparent-disabled-color: var(--gray-dark);
 }
 
-[data-theme='light'] {
+.light {
   --headings: var(--theme-neutral-500);
   --body: var(--theme-neutral-400);
   --action: var(--theme-primary);
@@ -246,7 +246,7 @@
   --border-focus: var(--theme-information-300);
 }
 
-[data-theme='dark'] {
+.dark {
   --headings: var(--theme-neutral-100);
   --body: #c8c8c8;
   --action: var(--theme-neutral-100);
