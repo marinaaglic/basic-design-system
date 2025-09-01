@@ -193,9 +193,22 @@
   --button-secondary-transparent-hover-bg: transparent;
   --button-secondary-transparent-focus-border: var(--blue-medium);
   --button-secondary-transparent-disabled-color: var(--gray-dark);
+
+  --theme-neutral-100: #ffffff;
+  --theme-neutral-200: #f7f7f7;
+  --theme-neutral-300: #e6e6e6;
+  --theme-neutral-400: #c8c8c8;
+  --theme-neutral-500: #4f4f4f;
+  --theme-neutral-600: #090909;
+  --theme-primary: #032541; /* ili brand-blue */
+  --theme-secondary: #23cfa7; /* ili brand-green */
+  --theme-success-300: #00a877;
+  --theme-error-300: #cf4023;
+  --theme-warning-300: #f1a43f;
+  --theme-information-300: #238acf;
 }
 
-.light {
+.light-mode {
   --headings: var(--theme-neutral-500);
   --body: var(--theme-neutral-400);
   --action: var(--theme-primary);
@@ -246,7 +259,7 @@
   --border-focus: var(--theme-information-300);
 }
 
-.dark {
+.dark-mode {
   --headings: var(--theme-neutral-100);
   --body: #c8c8c8;
   --action: var(--theme-neutral-100);

@@ -8,7 +8,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="light">
+      <body className="light-mode">
         {/* <ThemeProvider
           attribute="data-theme"
           defaultTheme="system"
