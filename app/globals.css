@@ -200,8 +200,8 @@
   --theme-neutral-400: #c8c8c8;
   --theme-neutral-500: #4f4f4f;
   --theme-neutral-600: #090909;
-  --theme-primary: #032541; /* ili brand-blue */
-  --theme-secondary: #23cfa7; /* ili brand-green */
+  --theme-primary: #032541;
+  --theme-secondary: #23cfa7;
   --theme-success-300: #00a877;
   --theme-error-300: #cf4023;
   --theme-warning-300: #f1a43f;
@@ -319,4 +319,8 @@
   /* transparent buttons – just text color */
   --button-primary-transparent-disabled-color: var(--gray-medium);
   --button-secondary-transparent-disabled-color: var(--gray-medium);
+}
+
+body {
+  background-color: var(--surface-page);
 }
