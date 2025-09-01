@@ -323,4 +323,5 @@
 
 body {
   background-color: var(--surface-page);
+  color: var(--headings);
 }
