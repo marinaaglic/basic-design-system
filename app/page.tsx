@@ -1,18 +1,27 @@
 import styles from './page.module.css';
 import Text from '@/components/text/Text';
 import Button from '@/components/button/Button';
-import Icon from '@/components/icon/Icon';
+import ToggleButton from '@/components/toggle-button/ToggleButton';
 
 export default function Home() {
   return (
     <div className={styles.page}>
+      <ToggleButton />
       <Text size="h1" component="h3">
         Home page
       </Text>
       <Button variant="primary" type="default" size="small">
         Primary Default
       </Button>
-      <Icon type="search" size="md" />
+      <Button color="secondary" type="default" size="medium">
+        Primary Default
+      </Button>
+      <Button color="secondary" type="transparent" size="medium">
+        Primary Default
+      </Button>
+      <Button color="secondary" type="default" size="medium" disabled={true}>
+        Primary Default
+      </Button>
     </div>
   );
 }
