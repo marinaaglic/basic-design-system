@@ -7,6 +7,8 @@
   --gray-dark: #4f4f4f;
   --gray-medium: #e6e6e6;
   --gray-light: #f7f7f7;
+  --gray: #c8c8c8;
+  --gray-deep: #2b2b2b;
   --white: #ffffff;
   --brand-green: #23cfa7;
   --brand-blue: #032541;
@@ -261,12 +263,12 @@
 
 .dark-mode {
   --headings: var(--theme-neutral-100);
-  --body: #c8c8c8;
+  --body: var(--gray);
   --action: var(--theme-neutral-100);
   --action-hover: var(--theme-neutral-100);
   --action-2: var(--theme-secondary);
   --action-hover-2: var(--theme-secondary);
-  --disabled: #c8c8c8;
+  --disabled: var(--gray);
   --information: var(--theme-information-300);
   --success: var(--theme-success-300);
   --warning: var(--theme-warning-300);
@@ -285,9 +287,9 @@
   --icon-disabled: var(--theme-neutral-300);
   --surface-page: var(--theme-primary);
   --surface-primary: var(--theme-neutral-500);
-  --surface-secondary: #2b2b2b;
+  --surface-secondary: var(--gray-deep);
   --surface-disabled: var(--theme-neutral-400);
-  --surface-disabled-selected: #c8c8c8;
+  --surface-disabled-selected: var(--gray);
   --surface-success: var(--theme-success-500);
   --surface-error: var(--theme-error-500);
   --surface-warning: var(--theme-warning-500);
