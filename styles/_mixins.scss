@@ -10,29 +10,3 @@
   width: var(--icon-size-#{$name});
   height: var(--icon-size-#{$name});
 }
-
-@mixin generate-button-class($name, $color) {
-  font-family: var(--typography-font-family-primary);
-  font-weight: var(--typography-font-weight-bold);
-  background-color: var(--button-#{$color}-#{$name}-bg);
-  color: var(--button-#{$color}-#{$name}-color);
-  border-radius: var(--button-border-radius);
-  display: var(--button-display);
-  justify-content: var(--button-justify);
-  cursor: var(--button-cursor);
-  border: none;
-
-  &:hover {
-    background-color: var(--button-#{$color}-#{$name}-hover-bg);
-  }
-
-  &:focus {
-    outline: 2px solid var(--button-#{$color}-#{$name}-focus-border);
-  }
-
-  &:disabled {
-    background-color: var(--button-#{$color}-#{$name}-disabled-bg, transparent);
-    color: var(--button-#{$color}-#{$name}-disabled-color);
-    cursor: not-allowed;
-  }
-}

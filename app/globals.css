@@ -156,45 +156,14 @@
   --icon-size-xxxlg: 64px;
 
   /* button */
-  --button-display: inline-flex;
+  --button-display: flex;
   --button-justify: center;
   --button-gap: var(--spacing-10, 10px);
   --button-border-radius: 4px;
   --spacing-12: 12px;
   --spacing-10: 10px;
-
   --button-padding-default: var(--spacing-12) var(--spacing-10);
   --button-padding-transparent: var(--spacing-10);
-
-  /* primary default button */
-  --button-primary-default-bg: var(--brand-blue);
-  --button-primary-default-color: var(--white);
-  --button-primary-default-hover-bg: var(--blue-dark);
-  --button-primary-default-focus-border: var(--blue-medium);
-  --button-primary-default-disabled-bg: var(--gray-medium);
-  --button-primary-default-disabled-color: var(--gray-dark);
-
-  /* primary transparent button */
-  --button-primary-transparent-bg: transparent;
-  --button-primary-transparent-color: var(--brand-blue);
-  --button-primary-transparent-hover-bg: transparent;
-  --button-primary-transparent-focus-border: var(--blue-medium);
-  --button-primary-transparent-disabled-color: var(--gray-dark);
-
-  /* secondary default button */
-  --button-secondary-default-bg: var(--brand-green);
-  --button-secondary-default-color: var(--white);
-  --button-secondary-default-hover-bg: var(--green-medium);
-  --button-secondary-default-focus-border: var(--blue-medium);
-  --button-secondary-default-disabled-bg: var(--gray-medium);
-  --button-secondary-default-disabled-color: var(--gray-dark);
-
-  /* secondary transparent button */
-  --button-secondary-transparent-bg: transparent;
-  --button-secondary-transparent-color: var(--brand-green);
-  --button-secondary-transparent-hover-bg: transparent;
-  --button-secondary-transparent-focus-border: var(--blue-medium);
-  --button-secondary-transparent-disabled-color: var(--gray-dark);
 
   --theme-neutral-100: #ffffff;
   --theme-neutral-200: #f7f7f7;
@@ -310,17 +279,6 @@
   --border-action: var(--theme-neutral-100);
   --border-action-hover: var(--theme-neutral-100);
   --border-focus: var(--theme-information-300);
-
-  /* disabled default buttons */
-  --button-primary-default-disabled-bg: var(--gray-dark);
-  --button-primary-default-disabled-color: var(--gray-medium);
-
-  --button-secondary-default-disabled-bg: var(--gray-dark);
-  --button-secondary-default-disabled-color: var(--gray-medium);
-
-  /* transparent buttons – just text color */
-  --button-primary-transparent-disabled-color: var(--gray-medium);
-  --button-secondary-transparent-disabled-color: var(--gray-medium);
 }
 
 body {
