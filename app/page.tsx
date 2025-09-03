@@ -11,6 +11,24 @@ export default function Home() {
       <Button variant="primary" type="default" size="small">
         Primary Default
       </Button>
+      <Button variant="primary" type="default" size="medium" disabled>
+        Primary Default Disabled
+      </Button>
+      <Button variant="primary" type="transparent" size="medium">
+        Primary Transparent
+      </Button>
+      <Button variant="secondary" type="default" size="small">
+        Secondary Default
+      </Button>
+      <Button variant="secondary" type="default" size="small" disabled>
+        Secondary Default
+      </Button>
+      <Button variant="secondary" type="transparent" size="medium">
+        Secondary Transparent
+      </Button>
+      <Button variant="secondary" type="transparent" size="small" disabled>
+        Secondary Transparent Disabled
+      </Button>
     </div>
   );
 }
