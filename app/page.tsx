@@ -17,11 +17,14 @@ export default function Home() {
       <Button variant="primary" type="transparent" size="medium">
         Primary Transparent
       </Button>
+      <Button variant="primary" type="transparent" size="medium" disabled>
+        Primary Transparent Disabled
+      </Button>
       <Button variant="secondary" type="default" size="small">
         Secondary Default
       </Button>
       <Button variant="secondary" type="default" size="small" disabled>
-        Secondary Default
+        Secondary Default Disabled
       </Button>
       <Button variant="secondary" type="transparent" size="medium">
         Secondary Transparent
