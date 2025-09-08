@@ -6,6 +6,9 @@ import ToggleButton from '@/components/toggle-button/ToggleButton';
 export default function Home() {
   return (
     <div className={styles.page}>
+      <Text size="h1" component="h3">
+        Home page
+      </Text>
       <ToggleButton />
       <Text size="h1" component="h3">
         Home page
