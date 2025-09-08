@@ -33,7 +33,7 @@
 
 /* primary transparent */
 .primary-transparent {
-  background-color: unset;
+  background-color: transparent;
   color: var(--action);
   padding: var(--button-padding-transparent);
 }
@@ -76,7 +76,7 @@
 
 /* secondary transparent */
 .secondary-transparent {
-  background-color: unset;
+  background-color: transparent;
   color: var(--action-2);
   padding: var(--button-padding-transparent);
 }
