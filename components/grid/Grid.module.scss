@@ -21,8 +21,7 @@ $grid-center-column-width: calc(
     $grid-stretch-column-width
   );
   column-gap: var(--grid-stretch-gutter-width);
-  margin-left: var(--grid-stretch-margin-width);
-  margin-right: var(--grid-stretch-margin-width);
+  margin-inline: var(--grid-stretch-margin-width);
 }
 
 .center {
@@ -32,7 +31,6 @@ $grid-center-column-width: calc(
     $grid-center-column-width
   );
   column-gap: var(--grid-center-gutter-width);
-  margin-left: auto;
-  margin-right: auto;
+  margin-inline: auto;
   max-width: var(--grid-center-max-width);
 }
