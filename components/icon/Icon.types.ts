@@ -1,9 +1,9 @@
-import { SVGProps } from 'react';
-
 export type IconSize = 'sm' | 'md' | 'lg' | 'xlg' | 'xxlg' | 'xxxlg';
 
-export interface IIconProps extends SVGProps<SVGSVGElement> {
+export type IconType = 'search' | 'dark' | 'light' | 'close' | 'arrowRight';
+
+export interface IIconProps {
   size: IconSize;
-  children: React.ReactNode;
+  type: IconType;
   className?: string;
 }
