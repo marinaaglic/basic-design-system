@@ -8,6 +8,10 @@ export default function Home() {
       <Text size="h1" component="h3">
         Home page
       </Text>
+      <ToggleButton />
+      <Text size="h1" component="h3">
+        Home page
+      </Text>
       <Button variant="primary" type="default" size="small">
         Primary Default
       </Button>
