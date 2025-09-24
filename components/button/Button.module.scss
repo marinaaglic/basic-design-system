@@ -1,23 +1,97 @@
-@use 'styles/mixins' as *;
+.button {
+  font-family: var(--typography-font-family-primary);
+  font-weight: var(--typography-font-weight-bold);
+  border-radius: var(--button-border-radius);
+  display: var(--button-display);
+  justify-content: var(--button-justify);
+  cursor: pointer;
+  border: none;
+}
 
+/* primary default */
 .primary-default {
-  @include generate-button-class('default', 'primary');
+  background-color: var(--surface-action-1);
+  color: var(--on-action);
   padding: var(--button-padding-default);
 }
 
+.primary-default:hover {
+  background:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    var(--surface-action-1, #032541);
+}
+
+.primary-default:focus {
+  border: 2px solid var(--border-focus, #238acf);
+}
+
+.primary-default:disabled {
+  background: var(--surface-disabled, #e6e6e6);
+  color: var(--on-disabled);
+  cursor: not-allowed;
+}
+
+/* primary transparent */
 .primary-transparent {
-  @include generate-button-class('transparent', 'primary');
+  background-color: transparent;
+  color: var(--action);
   padding: var(--button-padding-transparent);
 }
 
+.primary-transparent:hover {
+  color: var(--action-hover);
+}
+
+.primary-transparent:focus {
+  border: 2px solid var(--border-focus);
+}
+
+.primary-transparent:disabled {
+  color: var(--disabled);
+  cursor: not-allowed;
+}
+
+/* secondary default */
 .secondary-default {
-  @include generate-button-class('default', 'secondary');
+  background-color: var(--surface-action-2);
+  color: var(--on-action);
   padding: var(--button-padding-default);
 }
 
+.secondary-default:hover {
+  background:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    var(--surface-action-2, #23cfa7);
+}
+
+.secondary-default:focus {
+  border: 2px solid var(--border-focus);
+}
+
+.secondary-default:disabled {
+  background: var(--surface-disabled, #e6e6e6);
+  color: var(--on-disabled);
+  cursor: not-allowed;
+}
+
+/* secondary transparent */
 .secondary-transparent {
-  @include generate-button-class('transparent', 'secondary');
+  background-color: transparent;
+  color: var(--action-2);
   padding: var(--button-padding-transparent);
+}
+
+.secondary-transparent:hover {
+  color: var(--action-hover-2);
+}
+
+.secondary-transparent:focus {
+  border: 2px solid var(--border-focus);
+}
+
+.secondary-transparent:disabled {
+  color: var(--disabled);
+  cursor: not-allowed;
 }
 
 .small {

@@ -1,7 +1,6 @@
 import styles from './page.module.css';
 import Text from '@/components/text/Text';
 import Button from '@/components/button/Button';
-import ToggleButton from '@/components/toggle-button/ToggleButton';
 
 export default function Home() {
   return (
@@ -13,25 +12,29 @@ export default function Home() {
       <Text size="h1" component="h3">
         Home page
       </Text>
-      <Button color="primary" type="default" size="small">
+      <Button variant="primary" type="default" size="small">
         Primary Default
       </Button>
-      <Button color="secondary" type="default" size="medium">
-        Primary Default
+      <Button variant="primary" type="default" size="medium" disabled>
+        Primary Default Disabled
       </Button>
-      <Button color="secondary" type="transparent" size="medium">
-        Primary Default
+      <Button variant="primary" type="transparent" size="medium">
+        Primary Transparent
       </Button>
-      <Button
-        color="secondary"
-        type="transparent"
-        size="medium"
-        disabled={true}
-      >
-        Primary Default
+      <Button variant="primary" type="transparent" size="medium" disabled>
+        Primary Transparent Disabled
       </Button>
-      <Button color="secondary" type="default" size="medium" disabled={true}>
-        Primary Default
+      <Button variant="secondary" type="default" size="small">
+        Secondary Default
+      </Button>
+      <Button variant="secondary" type="default" size="small" disabled>
+        Secondary Default Disabled
+      </Button>
+      <Button variant="secondary" type="transparent" size="medium">
+        Secondary Transparent
+      </Button>
+      <Button variant="secondary" type="transparent" size="small" disabled>
+        Secondary Transparent Disabled
       </Button>
     </div>
   );
