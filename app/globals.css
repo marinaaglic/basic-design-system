@@ -147,6 +147,28 @@
   --typography-tab-letter-spacing: var(--letter-spacing-spacing-0-42);
   --typography-tab-font-family: var(--typography-font-family-primary);
 
+
+  /* layout grid */
+  --spacing-0: 0px;
+  --spacing-5: 5px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-14: 14px;
+  --spacing-20: 20px;
+  --spacing-25: 25px;
+  --spacing-30: 30px;
+  --spacing-40: 40px;
+  --spacing-50: 50px;
+  --spacing-60: 60px;
+  --grid-center-column-count: 12;
+  --grid-center-margin-width: 73px;
+  --grid-center-gutter-width: 30px;
+  --grid-center-max-width: 1400px;
+  --grid-stretch-column-count: 12;
+  --grid-stretch-margin-width: 40px;
+  --grid-stretch-gutter-width: 30px;
+
   /* icon size */
   --icon-size-sm: 16px;
   --icon-size-md: 24px;
@@ -284,4 +306,5 @@
 body {
   background-color: var(--surface-page);
   color: var(--headings);
+
 }

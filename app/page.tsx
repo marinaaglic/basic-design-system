@@ -1,10 +1,30 @@
-import styles from './page.module.css';
-import Text from '@/components/text/Text';
+
+import styles from './page.module.css'
+import Text from '@/components/text/Text'
+import Grid from '@/components/grid/Grid'
 import Button from '@/components/button/Button';
+
 
 export default function Home() {
   return (
     <div className={styles.page}>
+
+      <Text size="h1" component='h3'>Home page</Text>
+      <Grid size="center">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </Grid>
+
       <Text size="h1" component="h3">
         Home page
       </Text>
@@ -36,6 +56,7 @@ export default function Home() {
       <Button variant="secondary" type="transparent" size="small" disabled>
         Secondary Transparent Disabled
       </Button>
+
     </div>
   );
 }
